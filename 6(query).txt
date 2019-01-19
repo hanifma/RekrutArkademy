@@ -1,0 +1,2 @@
+SELECT hobbies.person_id, persons.name, hobbies.name FROM persons 
+INNER JOIN hobbies ON persons.id = hobbies.person_id ORDER BY persons.name;
